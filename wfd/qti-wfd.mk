@@ -23,8 +23,6 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     WfdService
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/common/wfd/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
